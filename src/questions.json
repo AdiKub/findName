@@ -1,0 +1,22 @@
+{
+  "questions": {
+    "question1": {
+      "img": "https://img5.goodfon.com/original/1280x800/8/48/ptb-fonar-istrebitel-pilot-f-4-phantom-ii-mcdonnell-douglas.jpg",
+      "options": [
+        {"F4": true},
+        {"F15": false},
+        {"eurofighter typhoon": false},
+        {"SU27": false}
+      ]
+    },
+    "question2": {
+      "img": "https://www.goodfon.com/download/mikoyan-i-gurevich-mig-35-3591/1680x1050/",
+      "options": [
+        {"su27": false},
+        {"F16": false},
+        {"mig35": true},
+        {"Su": false}
+      ]
+    }
+  }
+}
