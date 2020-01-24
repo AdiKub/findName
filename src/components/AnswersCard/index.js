@@ -1,15 +1,7 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
-import './styles.scss'
 
-const QuestionCard = (props) => {
-  const {question} = props
-  const dispatch = useDispatch()
- 
-  const setAnswer = (option) => {
-    question.answer = option
-    dispatch({ type: 'SET_ANSWERED_COUNT', title:question })
-  }
+const AnswersCard = (props) => {
+  const {answerObj} = props
 
   return (
     <div className='question-card'>
@@ -17,20 +9,23 @@ const QuestionCard = (props) => {
         <img
           alt='plane'
           className='question-card-img-wrapper_image' 
-          src={question.img}
+          src={answerObj.img}
         />
       </div>
       <div className='question-card-options'>
-        {question.options.map((item) => {
+        {answerObj.options.map((item) => {
           const option = Object.keys(item)[0]
           return (
-            <button
+            <div
+              style={{
+                backgroundColor: answerObj.answer === option 
+                ? item[answerObj.answer] ? '#6db2eb'  : '#cf4e4e' 
+                : '' }}
               key={option}
-              onClick={() => setAnswer(option)}
               className='question-card-options_option'
             >
               {option}
-            </button>
+            </div>
           )
         })}
       </div>
@@ -38,4 +33,4 @@ const QuestionCard = (props) => {
   )
 }
 
-export default QuestionCard;
+export default AnswersCard;

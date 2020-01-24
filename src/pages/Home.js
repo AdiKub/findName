@@ -1,12 +1,14 @@
 import React, { Fragment } from 'react';
-import FirstComponent from '../components/FirstComponent';
+import Questions from '../components/Questions';
 
 import '../assets/styles/main.scss';
 
+
 const Home = () => {
+
 	return (
 	<Fragment>
-		<FirstComponent />
+		<Questions />
 	</Fragment>
 	)
 }

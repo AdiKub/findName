@@ -1,20 +1,47 @@
 {
   "questions": {
-    "question1": {
+    "question_1": {
       "img": "https://img5.goodfon.com/original/1280x800/8/48/ptb-fonar-istrebitel-pilot-f-4-phantom-ii-mcdonnell-douglas.jpg",
       "options": [
         {"F4": true},
         {"F15": false},
-        {"eurofighter typhoon": false},
+        {"eurofighter": false},
         {"SU27": false}
       ]
     },
-    "question2": {
-      "img": "https://www.goodfon.com/download/mikoyan-i-gurevich-mig-35-3591/1680x1050/",
+    "question_2": {
+      "img": "https://img5.goodfon.com/original/1280x800/b/d1/anatoliy-petrov-by-anatoliy-petrov-mig-35-mig-35-fulcrum-f-m.jpg",
       "options": [
         {"su27": false},
         {"F16": false},
         {"mig35": true},
+        {"Su": false}
+      ]
+    },
+    "question_3": {
+      "img": "https://img5.goodfon.com/original/1280x800/1/63/mig-17-okb-mikoiana-i-gurevicha-istrebitel-vvs-sssr.jpg",
+      "options": [
+        {"su21": false},
+        {"mig17": true},
+        {"миг21": false},
+        {"Su17": false}
+      ]
+    },
+    "question_4": {
+      "img": "https://img1.goodfon.com/original/1280x800/5/47/rafale-m-samolet-oruzhie.jpg",
+      "options": [
+        {"su29": false},
+        {"F16": false},
+        {"eurofighter": false},
+        {"Rafale": true}
+      ]
+    },
+    "question_5": {
+      "img": "https://img5.goodfon.com/original/1280x800/f/6d/istrebitel-mirage-2000-vvs-gretsii-hellenic-air-force-dassau.jpg",
+      "options": [
+        {"eurofighter": false},
+        {"F15": false},
+        {"Mirage": true},
         {"Su": false}
       ]
     }
